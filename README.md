@@ -22,7 +22,7 @@ people who are possibly in search of a similar solution.
    * 'o' opens a FileDialog to choose the PDF file.
    * '=' to zoom in.
    * '-' to zoom out.
-   * '0' to reset zoom.
+   * '0' (zero) to reset zoom.
    * ' ' (space) to cycle forward through the pages.
    * 't' to rotate 90 degrees clockwise each time.
    * 'd' to toggle between color and grayscale.
@@ -56,6 +56,7 @@ people who are possibly in search of a similar solution.
 1. Compiler, tools, and libraries: Vala, GTK4, Poppler, pkg-config.
 2. Code: `ramanpdf.vala`, `ramanpdf.icns`, `Info.plist`, `makefile`.
 3. Optional: `svg2icns.sh` and `ramanpdf.svg`.
+   Not uploaded to github here.
 
 ## Mac App Bundling
 * The makefile makes the app (`ramanpdf`) and packages it into
@@ -135,7 +136,7 @@ people who are possibly in search of a similar solution.
 2. The 'ramanpdf.app' can be removed from the Applications folder 
    the usual way if you do not want it anymore -- just delete it.
 
-## Release
+## Pre-Release
 I have uploaded my build of `ramanpdf` and `ramanpdf.app`.
 But your OSX *might* say it comes from another computer and refuse to run
 it for security reasons.
