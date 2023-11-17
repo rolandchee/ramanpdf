@@ -166,7 +166,8 @@ complain.
    the way how to use the file dialog in Vala.
 7. [Stackoverflow.com](https://stackoverflow.com).
 8. [Apple StackExchange](https://apple.stackexchange.com).
-9. Many other sources on the web that I have not mentioned here.
+9. [homebrew](https://brew.sh).
+10. Many other sources on the web that I have not mentioned here.
 
 ## Bugs 
 1. Poppler (Cairo backend) [bug](
