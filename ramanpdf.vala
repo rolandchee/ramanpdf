@@ -283,7 +283,8 @@ main (string[] argv)
                 case "space":
                     if ((gfile != null) && (n_pages != 0))
                     {
-                        if ((state & Gdk.ModifierType.SHIFT_MASK)!=0)
+                        if ((state & Gdk.ModifierType.SHIFT_MASK) ==
+                            Gdk.ModifierType.SHIFT_MASK)
                         {
                             index--;
                             if (index < 0)
