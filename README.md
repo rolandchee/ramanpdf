@@ -24,6 +24,7 @@ people who are possibly in search of a similar solution.
    * '-' to zoom out.
    * '0' (zero) to reset zoom.
    * ' ' (space) to cycle forward through the pages.
+     SHIFT-space to cycle backward.
    * 't' to rotate 90 degrees clockwise each time.
    * 'd' to toggle between color and grayscale.
    * 'i' to flip color or grayscale to their opposites. 
