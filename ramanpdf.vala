@@ -283,9 +283,26 @@ main (string[] argv)
                 case "space":
                     if ((gfile != null) && (n_pages != 0))
                     {
-                        index++;
-                        index %= n_pages;
-                        da.queue_draw ();
+                        if ((state & Gdk.ModifierType.SHIFT_MASK)!=0)
+                        {
+                            index--;
+                            if (index < 0)
+                            {
+                                index = n_pages - (index.abs() % n_pages);
+                                da.queue_draw ();
+                            }
+                            else
+                            {
+                                index %= n_pages;
+                                da.queue_draw ();
+                            };
+                        }
+                        else
+                        {
+                            index++;
+                            index %= n_pages;
+                            da.queue_draw ();
+                        };
                     }
                     break;
                 case "i":
